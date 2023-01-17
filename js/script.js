@@ -51,7 +51,7 @@ window.addEventListener('DOMContentLoaded', () => {
     };
     valideForms('.feed-form');
     
-    $('input[name=phone]').mask("+3(999) 999-99-99");
+    $('input[name=phone]').mask("+38(999) 999-99-99");
 
      $('.feed-form').submit(function(e) {
         e.preventDefault();
